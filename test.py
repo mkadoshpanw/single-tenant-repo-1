@@ -1,6 +1,7 @@
 import os
 
 ###
+###
 
 # Test secrets for scanner detection
 DB_PASSWORD = "SuperSecretPassword123!"
