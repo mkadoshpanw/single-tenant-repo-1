@@ -2,6 +2,7 @@ import os
 
 # Test secrets for scanner detection
 ###
+###
 DB_PASSWORD = "SuperSecretPassword123!"
 AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
 AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
