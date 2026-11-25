@@ -1,0 +1,500 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-140
+  labels:
+    label: "ordinary"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-140
+  template:
+    metadata:
+      labels:
+        app: stress-140
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-141
+  labels:
+    label: "café-ünïcode"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-141
+  template:
+    metadata:
+      labels:
+        app: stress-141
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-142
+  labels:
+    label: "İstanbul"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-142
+  template:
+    metadata:
+      labels:
+        app: stress-142
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-143
+  labels:
+    label: "日本語"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-143
+  template:
+    metadata:
+      labels:
+        app: stress-143
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-144
+  labels:
+    label: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-144
+  template:
+    metadata:
+      labels:
+        app: stress-144
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-145
+  labels:
+    label: "ordinary"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-145
+  template:
+    metadata:
+      labels:
+        app: stress-145
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-146
+  labels:
+    label: "café-ünïcode"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-146
+  template:
+    metadata:
+      labels:
+        app: stress-146
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-147
+  labels:
+    label: "İstanbul"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-147
+  template:
+    metadata:
+      labels:
+        app: stress-147
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-148
+  labels:
+    label: "日本語"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-148
+  template:
+    metadata:
+      labels:
+        app: stress-148
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-149
+  labels:
+    label: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-149
+  template:
+    metadata:
+      labels:
+        app: stress-149
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-150
+  labels:
+    label: "ordinary"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-150
+  template:
+    metadata:
+      labels:
+        app: stress-150
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-151
+  labels:
+    label: "café-ünïcode"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-151
+  template:
+    metadata:
+      labels:
+        app: stress-151
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-152
+  labels:
+    label: "İstanbul"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-152
+  template:
+    metadata:
+      labels:
+        app: stress-152
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-153
+  labels:
+    label: "日本語"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-153
+  template:
+    metadata:
+      labels:
+        app: stress-153
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-154
+  labels:
+    label: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-154
+  template:
+    metadata:
+      labels:
+        app: stress-154
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-155
+  labels:
+    label: "ordinary"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-155
+  template:
+    metadata:
+      labels:
+        app: stress-155
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-156
+  labels:
+    label: "café-ünïcode"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-156
+  template:
+    metadata:
+      labels:
+        app: stress-156
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-157
+  labels:
+    label: "İstanbul"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-157
+  template:
+    metadata:
+      labels:
+        app: stress-157
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-158
+  labels:
+    label: "日本語"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-158
+  template:
+    metadata:
+      labels:
+        app: stress-158
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stress-159
+  labels:
+    label: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stress-159
+  template:
+    metadata:
+      labels:
+        app: stress-159
+    spec:
+      hostNetwork: true
+      containers:
+        - name: app
+          image: nginx:latest
+          securityContext:
+            privileged: true
+            allowPrivilegeEscalation: true
+            runAsUser: 0
